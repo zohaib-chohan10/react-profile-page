@@ -1,0 +1,8 @@
+.photo-box{
+    width: 49%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.view-all{
+    color: #FE5D31;
+}

@@ -1,0 +1,17 @@
+.custom-container{
+    width: 100%;
+    max-width: 1440px;
+    margin:0 auto;
+    padding:10px 0 5px;
+}
+.round-bg{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(244, 245, 247, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bg{
+    background-color: #F4F5F7;
+}

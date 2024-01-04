@@ -1,0 +1,40 @@
+.profile-title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.edit-btn {
+  background-color: #f85f35;
+}
+.user-profile {
+  width: 156px;
+  height: 116px;
+}
+.user-profile img {
+  position: absolute;
+  top: -70px;
+  border: 10px solid #fff;
+  border-radius: 50%;
+}
+@media screen and (max-width: 991px) {
+  .user-name {
+    width: 100%;
+  }
+  .user-profile {
+    width: 100%;
+  }
+  .user-profile img {
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .header-bg{
+    height: 200px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header-bg{
+    height: 150px;
+  }
+}

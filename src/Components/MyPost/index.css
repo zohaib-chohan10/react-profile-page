@@ -1,0 +1,63 @@
+.post-img {
+  width: 42px;
+}
+.upload-detail {
+  color: #92929d;
+  font-family: "Outfit", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.post-profile-title h6 {
+  color: #2d3139;
+  font-weight: 600;
+}
+.dots {
+  color: rgba(146, 146, 157, 1);
+  font-size: 24px;
+  line-height: 0;
+}
+.wyc {
+  background-color: #f4f5f7;
+}
+.comment-input input {
+  height: 48px;
+}
+.comment-input .bi-paperclip {
+  position: absolute;
+  top: 5px;
+  right: 90px;
+  color: rgba(213, 213, 220, 1);
+  font-size: 24px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.comment-input .bi-emoji-smile {
+  position: absolute;
+  top: 5px;
+  right: 53px;
+  color: rgba(213, 213, 220, 1);
+  font-size: 24px;
+  cursor: pointer;
+}
+.comment-input .bi-image {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: rgba(213, 213, 220, 1);
+  font-size: 24px;
+  cursor: pointer;
+}
+.vertical-img-box {
+  width: 49%;
+}
+.horizontal-img-box {
+  width: 48%;
+}
+@media screen and (max-width: 576px) {
+  .comment-input .bi-paperclip,
+  .comment-input .bi-emoji-smile,
+  .comment-input .bi-image {
+    top: 9px;
+    font-size: 19px;
+  }
+}
